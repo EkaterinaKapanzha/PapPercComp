@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_mLyLsKDwEeqn6tae18HrGA" type="CompositeStructure" name="KitchenUtensilClassifier diagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" xmi:id="_mLyLsaDwEeqn6tae18HrGA" type="Class_Shape">
+    <children xsi:type="notation:DecorationNode" xmi:id="_mLyLsqDwEeqn6tae18HrGA" type="Class_NameLabel"/>
+    <children xsi:type="notation:DecorationNode" xmi:id="_mLyLs6DwEeqn6tae18HrGA" type="Class_FloatingNameLabel">
+      <layoutConstraint xsi:type="notation:Location" xmi:id="_mLyLtKDwEeqn6tae18HrGA" y="15"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_mLyLtaDwEeqn6tae18HrGA" type="Class_StructureCompartment">
+      <children xsi:type="notation:Shape" xmi:id="_mLyLtqDwEeqn6tae18HrGA" type="Class_Shape_CN">
+        <children xsi:type="notation:DecorationNode" xmi:id="_mLyLt6DwEeqn6tae18HrGA" type="Class_NameLabel_CN"/>
+        <children xsi:type="notation:DecorationNode" xmi:id="_mLyLuKDwEeqn6tae18HrGA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_mLyLuaDwEeqn6tae18HrGA" y="15"/>
+        </children>
+        <children xsi:type="notation:BasicCompartment" xmi:id="_mLyLuqDwEeqn6tae18HrGA" type="Class_StructureCompartment_CN">
+          <styles xsi:type="notation:TitleStyle" xmi:id="_mLyLu6DwEeqn6tae18HrGA"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mLyLvKDwEeqn6tae18HrGA"/>
+        </children>
+        <element href="KitchenUtensilClassifier.compdef.uml#_mLpBxKDwEeqn6tae18HrGA"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mLyLvaDwEeqn6tae18HrGA" x="194" y="80" width="101" height="81"/>
+      </children>
+      <styles xsi:type="notation:TitleStyle" xmi:id="_mLyLvqDwEeqn6tae18HrGA"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mLyLv6DwEeqn6tae18HrGA"/>
+    </children>
+    <element href="KitchenUtensilClassifier.compdef.uml#_mLpBw6DwEeqn6tae18HrGA"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mLyLwKDwEeqn6tae18HrGA" x="100" y="60" width="601" height="321"/>
+  </children>
+  <children xsi:type="notation:Shape" xmi:id="_mLyLwaDwEeqn6tae18HrGA" type="StereotypeComment">
+    <styles xsi:type="notation:TitleStyle" xmi:id="_mLyLwqDwEeqn6tae18HrGA"/>
+    <styles xsi:type="notation:EObjectValueStyle" xmi:id="_mLyLw6DwEeqn6tae18HrGA" name="BASE_ELEMENT">
+      <eObjectValue href="KitchenUtensilClassifier.compdef.uml#_mLpBw6DwEeqn6tae18HrGA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mLyLxKDwEeqn6tae18HrGA" x="420" y="100"/>
+  </children>
+  <children xsi:type="notation:Shape" xmi:id="_mLyLxaDwEeqn6tae18HrGA" type="StereotypeComment">
+    <styles xsi:type="notation:TitleStyle" xmi:id="_mLyLxqDwEeqn6tae18HrGA"/>
+    <styles xsi:type="notation:EObjectValueStyle" xmi:id="_mLyLx6DwEeqn6tae18HrGA" name="BASE_ELEMENT">
+      <eObjectValue href="KitchenUtensilClassifier.compdef.uml#_mLpBw6DwEeqn6tae18HrGA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mLyLyKDwEeqn6tae18HrGA" x="300" y="60"/>
+  </children>
+  <styles xsi:type="notation:StringValueStyle" xmi:id="_mLyLyaDwEeqn6tae18HrGA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_mLyLyqDwEeqn6tae18HrGA"/>
+  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_mLyLy6DwEeqn6tae18HrGA" diagramKindId="org.eclipse.papyrus.robotics.diagram.component">
+    <owner href="KitchenUtensilClassifier.compdef.uml#_mLpBwKDwEeqn6tae18HrGA"/>
+  </styles>
+  <element href="KitchenUtensilClassifier.compdef.uml#_mLpBwKDwEeqn6tae18HrGA"/>
+  <edges xsi:type="notation:Connector" xmi:id="_mLyLzKDwEeqn6tae18HrGA" type="StereotypeCommentLink" source="_mLyLsaDwEeqn6tae18HrGA">
+    <styles xsi:type="notation:FontStyle" xmi:id="_mLyLzaDwEeqn6tae18HrGA"/>
+    <styles xsi:type="notation:EObjectValueStyle" xmi:id="_mLyLzqDwEeqn6tae18HrGA" name="BASE_ELEMENT">
+      <eObjectValue href="KitchenUtensilClassifier.compdef.uml#_mLpBw6DwEeqn6tae18HrGA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_mLyLz6DwEeqn6tae18HrGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mLyL0KDwEeqn6tae18HrGA"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mLyL0aDwEeqn6tae18HrGA"/>
+  </edges>
+  <edges xsi:type="notation:Connector" xmi:id="_mLyL0qDwEeqn6tae18HrGA" type="StereotypeCommentLink" source="_mLyLsaDwEeqn6tae18HrGA" target="_mLyLwaDwEeqn6tae18HrGA">
+    <styles xsi:type="notation:FontStyle" xmi:id="_mLyL06DwEeqn6tae18HrGA"/>
+    <styles xsi:type="notation:EObjectValueStyle" xmi:id="_mLyL1KDwEeqn6tae18HrGA" name="BASE_ELEMENT">
+      <eObjectValue href="KitchenUtensilClassifier.compdef.uml#_mLpBw6DwEeqn6tae18HrGA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_mLyL1aDwEeqn6tae18HrGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mLyL1qDwEeqn6tae18HrGA"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mLyL16DwEeqn6tae18HrGA"/>
+  </edges>
+  <edges xsi:type="notation:Connector" xmi:id="_mLyL2KDwEeqn6tae18HrGA" type="StereotypeCommentLink" source="_mLyLtqDwEeqn6tae18HrGA">
+    <styles xsi:type="notation:FontStyle" xmi:id="_mLyL2aDwEeqn6tae18HrGA"/>
+    <styles xsi:type="notation:EObjectValueStyle" xmi:id="_mLyL2qDwEeqn6tae18HrGA" name="BASE_ELEMENT">
+      <eObjectValue href="KitchenUtensilClassifier.compdef.uml#_mLpBxKDwEeqn6tae18HrGA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_mLyL26DwEeqn6tae18HrGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mLyL3KDwEeqn6tae18HrGA"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mLyL3aDwEeqn6tae18HrGA"/>
+  </edges>
+  <edges xsi:type="notation:Connector" xmi:id="_mLyL3qDwEeqn6tae18HrGA" type="StereotypeCommentLink" source="_mLyLsaDwEeqn6tae18HrGA" target="_mLyLxaDwEeqn6tae18HrGA">
+    <styles xsi:type="notation:FontStyle" xmi:id="_mLyL36DwEeqn6tae18HrGA"/>
+    <styles xsi:type="notation:EObjectValueStyle" xmi:id="_mLyL4KDwEeqn6tae18HrGA" name="BASE_ELEMENT">
+      <eObjectValue href="KitchenUtensilClassifier.compdef.uml#_mLpBw6DwEeqn6tae18HrGA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_mLyL4aDwEeqn6tae18HrGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mLyL4qDwEeqn6tae18HrGA"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mLyL46DwEeqn6tae18HrGA"/>
+  </edges>
+</notation:Diagram>
