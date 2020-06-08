@@ -1,0 +1,2 @@
+[0.016s] Invoking command in '/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/gesturedetector -- -j4 -l4
+[0.060s] Invoked command in '/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/gesturedetector -- -j4 -l4

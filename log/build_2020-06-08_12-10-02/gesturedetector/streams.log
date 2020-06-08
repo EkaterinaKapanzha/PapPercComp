@@ -1,0 +1,49 @@
+[0.014s] Invoking command in '/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/katya/ros2_ws/handGestureRecognition/gestureDetector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/katya/ros2_ws/handGestureRecognition/install/gesturedetector
+[0.356s] -- The C compiler identification is GNU 7.5.0
+[0.734s] -- The CXX compiler identification is GNU 7.5.0
+[0.748s] -- Check for working C compiler: /usr/bin/cc
+[0.921s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.927s] -- Detecting C compiler ABI info
+[1.024s] -- Detecting C compiler ABI info - done
+[1.031s] -- Detecting C compile features
+[1.299s] -- Detecting C compile features - done
+[1.311s] -- Check for working CXX compiler: /usr/bin/c++
+[1.401s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.402s] -- Detecting CXX compiler ABI info
+[1.488s] -- Detecting CXX compiler ABI info - done
+[1.496s] -- Detecting CXX compile features
+[1.952s] -- Detecting CXX compile features - done
+[1.967s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[2.043s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.387s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.449s] -- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+[2.495s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[2.574s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[2.577s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.580s] -- Looking for pthread.h
+[2.676s] -- Looking for pthread.h - found
+[2.677s] -- Looking for pthread_create
+[2.800s] -- Looking for pthread_create - not found
+[2.800s] -- Looking for pthread_create in pthreads
+[2.904s] -- Looking for pthread_create in pthreads - not found
+[2.904s] -- Looking for pthread_create in pthread
+[2.976s] -- Looking for pthread_create in pthread - found
+[2.977s] -- Found Threads: TRUE  
+[3.070s] -- Found rclcpp_lifecycle: 0.8.4 (/opt/ros/eloquent/share/rclcpp_lifecycle/cmake)
+[3.126s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[3.317s] -- Configuring done
+[3.318s] CMake Error at CMakeLists.txt:24 (add_executable):
+[3.318s]   Cannot find source file:
+[3.318s] 
+[3.318s]     src/GestureDetectorCompdef/GestureDetector_impl.cpp
+[3.318s] 
+[3.318s]   Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+[3.318s]   .hxx .in .txx
+[3.318s] 
+[3.319s] 
+[3.319s] CMake Error: CMake can not determine linker language for target: GestureDetector
+[3.319s] CMake Error: Cannot determine link language for target "GestureDetector".
+[3.321s] -- Generating done
+[3.322s] -- Build files have been written to: /home/katya/ros2_ws/handGestureRecognition/build/gesturedetector
+[3.326s] Invoked command in '/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/katya/ros2_ws/handGestureRecognition/gestureDetector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/katya/ros2_ws/handGestureRecognition/install/gesturedetector

@@ -1,0 +1,1 @@
+/home/katya/ros2_ws/handGestureRecognition/handGestureRecognition/launch/activate.ComponentInstance4.py

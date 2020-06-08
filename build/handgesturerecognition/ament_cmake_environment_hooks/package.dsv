@@ -1,0 +1,4 @@
+source;share/handgesturerecognition/local_setup.bash
+source;share/handgesturerecognition/local_setup.dsv
+source;share/handgesturerecognition/local_setup.sh
+source;share/handgesturerecognition/local_setup.zsh

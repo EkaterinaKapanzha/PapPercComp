@@ -1,0 +1,9 @@
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/CMakeFiles/install/strip.dir
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/CMakeFiles/install.dir
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/CMakeFiles/rebuild_cache.dir
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/CMakeFiles/uninstall.dir
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/CMakeFiles/install/local.dir
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/CMakeFiles/test.dir
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/CMakeFiles/handgesturerecognition_uninstall.dir
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/CMakeFiles/list_install_components.dir
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/CMakeFiles/edit_cache.dir

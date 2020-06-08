@@ -1,0 +1,11 @@
+[3.318s] CMake Error at CMakeLists.txt:24 (add_executable):
+[3.318s]   Cannot find source file:
+[3.318s] 
+[3.318s]     src/GestureDetectorCompdef/GestureDetector_impl.cpp
+[3.318s] 
+[3.318s]   Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+[3.318s]   .hxx .in .txx
+[3.318s] 
+[3.319s] 
+[3.319s] CMake Error: CMake can not determine linker language for target: GestureDetector
+[3.319s] CMake Error: Cannot determine link language for target "GestureDetector".

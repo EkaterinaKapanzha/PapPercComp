@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition -- -j4 -l4
+[0.063s] Invoked command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition -- -j4 -l4
+[0.097s] Invoking command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition --target install -- -j4 -l4
+[0.152s] Install the project...
+[0.161s] -- Install configuration: ""
+[0.162s] -- Execute custom install script
+[0.162s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition//launch/__pycache__/launch.cpython-36.pyc
+[0.163s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition//launch/activate.ComponentInstance4.py
+[0.163s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition//launch/activate.ComponentInstance5.py
+[0.163s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition//launch/activate.py
+[0.163s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition//launch/cfg/param.yaml
+[0.164s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition//launch/launch.ComponentInstance4.py
+[0.164s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition//launch/launch.ComponentInstance5.py
+[0.164s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition//launch/launch.py
+[0.164s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/ament_index/resource_index/package_run_dependencies/handgesturerecognition
+[0.165s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/ament_index/resource_index/parent_prefix_path/handgesturerecognition
+[0.165s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/environment/ament_prefix_path.sh
+[0.165s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/environment/path.sh
+[0.166s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/environment/path.dsv
+[0.167s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/local_setup.bash
+[0.167s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/local_setup.sh
+[0.167s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/local_setup.zsh
+[0.167s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/local_setup.dsv
+[0.168s] -- Symlinking: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/package.dsv
+[0.178s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/ament_index/resource_index/packages/handgesturerecognition
+[0.178s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/cmake/handgesturerecognitionConfig.cmake
+[0.178s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/cmake/handgesturerecognitionConfig-version.cmake
+[0.179s] -- Up-to-date symlink: /home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/package.xml
+[0.182s] Invoked command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition --target install -- -j4 -l4

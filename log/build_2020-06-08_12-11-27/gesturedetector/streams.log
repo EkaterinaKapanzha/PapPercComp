@@ -1,0 +1,7 @@
+[0.016s] Invoking command in '/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/gesturedetector -- -j4 -l4
+[0.058s] make[2]: *** No rule to make target 'CMakeFiles/GestureDetector.dir/build'.  Stop.
+[0.059s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/GestureDetector.dir/all' failed
+[0.059s] make[1]: *** [CMakeFiles/GestureDetector.dir/all] Error 2
+[0.059s] Makefile:140: recipe for target 'all' failed
+[0.059s] make: *** [all] Error 2
+[0.060s] Invoked command in '/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/gesturedetector -- -j4 -l4

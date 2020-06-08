@@ -1,0 +1,539 @@
+[0.470s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-up-to', 'handgesturerecognition']
+[0.470s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3e0b54ba90>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=['handgesturerecognition'], parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3e0b54ba90>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3e0b54bdd8>)
+[0.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.561s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/katya/ros2_ws/handGestureRecognition'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extension 'ignore_ament_install'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extension 'ros'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extensions ['cmake', 'python']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extension 'cmake'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extension 'python'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extensions ['python_setup_py']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz) by extension 'python_setup_py'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extension 'ros'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extensions ['cmake', 'python']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extension 'cmake'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extension 'python'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extensions ['python_setup_py']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models) by extension 'python_setup_py'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extension 'ros'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extensions ['cmake', 'python']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extension 'cmake'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extension 'python'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extensions ['python_setup_py']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/components) by extension 'python_setup_py'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extension 'ros'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extensions ['cmake', 'python']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extension 'cmake'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extension 'python'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extensions ['python_setup_py']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/services) by extension 'python_setup_py'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extension 'ros'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extensions ['cmake', 'python']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extension 'cmake'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extension 'python'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extensions ['python_setup_py']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/skills) by extension 'python_setup_py'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extension 'ros'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extension 'cmake'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extension 'python'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extensions ['python_setup_py']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/system) by extension 'python_setup_py'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extension 'ros'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extensions ['cmake', 'python']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extension 'cmake'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extension 'python'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extensions ['python_setup_py']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/taskbased-hara) by extension 'python_setup_py'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extension 'ros'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extensions ['cmake', 'python']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extension 'cmake'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extension 'python'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extensions ['python_setup_py']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(data2RViz/models/tasks) by extension 'python_setup_py'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extension 'ros'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extensions ['cmake', 'python']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extension 'cmake'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extension 'python'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extensions ['python_setup_py']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector) by extension 'python_setup_py'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extension 'ros'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extensions ['cmake', 'python']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extension 'cmake'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extension 'python'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extensions ['python_setup_py']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models) by extension 'python_setup_py'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extension 'ros'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extensions ['cmake', 'python']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extension 'cmake'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extension 'python'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extensions ['python_setup_py']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/components) by extension 'python_setup_py'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extension 'colcon_meta'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extensions ['ros']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extension 'ros'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extensions ['cmake', 'python']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extension 'cmake'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extension 'python'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extensions ['python_setup_py']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/services) by extension 'python_setup_py'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extension 'ros'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extensions ['cmake', 'python']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extension 'cmake'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extension 'python'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extensions ['python_setup_py']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/skills) by extension 'python_setup_py'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extensions ['colcon_pkg']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extension 'ros'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extensions ['cmake', 'python']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extension 'cmake'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extension 'python'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extensions ['python_setup_py']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/system) by extension 'python_setup_py'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extension 'ros'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extensions ['cmake', 'python']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extension 'cmake'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extension 'python'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extensions ['python_setup_py']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/taskbased-hara) by extension 'python_setup_py'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extension 'ros'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extensions ['cmake', 'python']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extension 'cmake'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extension 'python'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extensions ['python_setup_py']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(gestureDetector/models/tasks) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(handGestureRecognition) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(handGestureRecognition) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(handGestureRecognition) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(handGestureRecognition) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(handGestureRecognition) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(handGestureRecognition) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(handGestureRecognition) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(handGestureRecognition) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(handGestureRecognition) by extension 'ros'
+[0.601s] DEBUG:colcon.colcon_core.package_identification:Package 'handGestureRecognition' with type 'ros.ament_cmake' and name 'handgesturerecognition'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extension 'colcon_pkg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extension 'colcon_meta'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extensions ['ros']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extension 'ros'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extensions ['cmake', 'python']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extension 'cmake'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extension 'python'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extensions ['python_setup_py']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker) by extension 'python_setup_py'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extension 'ros'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extensions ['cmake', 'python']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extension 'cmake'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extension 'python'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extensions ['python_setup_py']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models) by extension 'python_setup_py'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extension 'colcon_meta'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extensions ['ros']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extension 'ros'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extensions ['cmake', 'python']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extension 'cmake'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extension 'python'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extensions ['python_setup_py']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/components) by extension 'python_setup_py'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extension 'ros'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extensions ['cmake', 'python']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extension 'cmake'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extension 'python'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extensions ['python_setup_py']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/services) by extension 'python_setup_py'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extension 'ros'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extensions ['cmake', 'python']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extension 'cmake'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extension 'python'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extensions ['python_setup_py']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/skills) by extension 'python_setup_py'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extensions ['python_setup_py']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/system) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extension 'cmake'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extension 'python'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extensions ['python_setup_py']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/taskbased-hara) by extension 'python_setup_py'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(handTracker/models/tasks) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/components) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/services) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extensions ['cmake', 'python']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extension 'cmake'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extension 'python'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/skills) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extension 'ros'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extensions ['cmake', 'python']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/system) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/taskbased-hara) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extension 'python'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extensions ['python_setup_py']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(models/tasks) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'handgesturerecognition' build argument 'cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'handgesturerecognition' build argument 'cmake_target' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'handgesturerecognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'handgesturerecognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'handgesturerecognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'handgesturerecognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'handgesturerecognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'handgesturerecognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'handgesturerecognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'handgesturerecognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition', 'merge_install': False, 'path': '/home/katya/ros2_ws/handGestureRecognition/handGestureRecognition', 'symlink_install': True, 'test_result_base': None}
+[0.629s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.632s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/katya/ros2_ws/handGestureRecognition/handGestureRecognition' with build type 'ament_cmake'
+[0.642s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.642s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/katya/ros2_ws/handGestureRecognition/handGestureRecognition'
+[0.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.648s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/katya/ros2_ws/handGestureRecognition/handGestureRecognition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition
+[3.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/katya/ros2_ws/handGestureRecognition/handGestureRecognition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition
+[3.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition -- -j4 -l4
+[3.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition -- -j4 -l4
+[3.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition --target install -- -j4 -l4
+[3.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(handgesturerecognition)
+[3.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition --target install -- -j4 -l4
+[3.428s] Level 1:colcon.colcon_core.environment:checking '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition' for CMake module files
+[3.429s] Level 1:colcon.colcon_core.environment:checking '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition' for CMake config files
+[3.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('handgesturerecognition', 'cmake_prefix_path')
+[3.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/hook/cmake_prefix_path.ps1'
+[3.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/hook/cmake_prefix_path.dsv'
+[3.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/hook/cmake_prefix_path.sh'
+[3.435s] Level 1:colcon.colcon_core.environment:checking '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/bin'
+[3.435s] Level 1:colcon.colcon_core.environment:checking '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/lib/pkgconfig/handgesturerecognition.pc'
+[3.435s] Level 1:colcon.colcon_core.environment:checking '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/lib/python3.6/site-packages'
+[3.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/package.ps1'
+[3.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/package.dsv'
+[3.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/package.sh'
+[3.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/package.bash'
+[3.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/handgesturerecognition/package.zsh'
+[3.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/katya/ros2_ws/handGestureRecognition/install/handgesturerecognition/share/colcon-core/packages/handgesturerecognition)
+[3.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.447s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.447s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.447s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.459s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.463s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katya/ros2_ws/handGestureRecognition/install/local_setup.ps1'
+[3.467s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/katya/ros2_ws/handGestureRecognition/install/_local_setup_util_ps1.py'
+[3.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katya/ros2_ws/handGestureRecognition/install/setup.ps1'
+[3.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katya/ros2_ws/handGestureRecognition/install/local_setup.sh'
+[3.475s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/katya/ros2_ws/handGestureRecognition/install/_local_setup_util_sh.py'
+[3.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katya/ros2_ws/handGestureRecognition/install/setup.sh'
+[3.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katya/ros2_ws/handGestureRecognition/install/local_setup.bash'
+[3.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katya/ros2_ws/handGestureRecognition/install/setup.bash'
+[3.509s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katya/ros2_ws/handGestureRecognition/install/local_setup.zsh'
+[3.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katya/ros2_ws/handGestureRecognition/install/setup.zsh'

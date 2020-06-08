@@ -1,0 +1,4 @@
+source;share/gesturedetector/local_setup.bash
+source;share/gesturedetector/local_setup.dsv
+source;share/gesturedetector/local_setup.sh
+source;share/gesturedetector/local_setup.zsh

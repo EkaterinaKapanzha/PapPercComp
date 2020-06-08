@@ -1,0 +1,8 @@
+source;share/handgesturerecognition/hook/cmake_prefix_path.ps1
+source;share/handgesturerecognition/hook/cmake_prefix_path.dsv
+source;share/handgesturerecognition/hook/cmake_prefix_path.sh
+source;share/handgesturerecognition/local_setup.bash
+source;share/handgesturerecognition/local_setup.dsv
+source;share/handgesturerecognition/local_setup.ps1
+source;share/handgesturerecognition/local_setup.sh
+source;share/handgesturerecognition/local_setup.zsh

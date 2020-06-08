@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (-) JobUnselected: {'identifier': 'handgesturerecognition'}
+[0.000169] (gesturedetector) JobQueued: {'identifier': 'gesturedetector', 'dependencies': OrderedDict()}
+[0.000220] (gesturedetector) JobStarted: {'identifier': 'gesturedetector'}
+[0.013397] (gesturedetector) JobProgress: {'identifier': 'gesturedetector', 'progress': 'cmake'}
+[0.013661] (gesturedetector) Command: {'cmd': ['/usr/bin/cmake', '/home/katya/ros2_ws/handGestureRecognition/gestureDetector', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/katya/ros2_ws/handGestureRecognition/install/gesturedetector'], 'cwd': '/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LC_TIME', 'de_DE.UTF-8'), ('USER', 'katya'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1755'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('OLDPWD', '/home/katya'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/katya'), ('CWD', '/home/katya/ros2_ws/handGestureRecognition'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator20x1a6021154d881c'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3627'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'katya'), ('_', '/home/katya/Desktop/papyrus-robotics/papyrus-robotics'), ('ROS_VERSION', '2'), ('USERNAME', 'katya'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('LIBOVERLAY_SCROLLBAR', '0'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '1'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/katya-VirtualBox:@/tmp/.ICE-unix/1618,unix/katya-VirtualBox:/tmp/.ICE-unix/1618'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('OSPL_HOME', '/usr'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36'), ('GDK_CORE_DEVICE_EVENTS', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:188522e4-d1fa-4c8c-b894-110dbb662767'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('OXYGEN_DISABLE_INNER_SHADOWS_HACK', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.098420] (-) TimerEvent: {}
+[0.237559] (-) TimerEvent: {}
+[0.337717] (-) TimerEvent: {}
+[0.355848] (gesturedetector) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.488245] (-) TimerEvent: {}
+[0.599976] (-) TimerEvent: {}
+[0.700211] (-) TimerEvent: {}
+[0.734305] (gesturedetector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.748221] (gesturedetector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.801473] (-) TimerEvent: {}
+[0.901992] (-) TimerEvent: {}
+[0.921046] (gesturedetector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.927174] (gesturedetector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.002200] (-) TimerEvent: {}
+[1.023829] (gesturedetector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.031644] (gesturedetector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.102587] (-) TimerEvent: {}
+[1.203269] (-) TimerEvent: {}
+[1.299092] (gesturedetector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.305204] (-) TimerEvent: {}
+[1.311585] (gesturedetector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.401236] (gesturedetector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.401969] (gesturedetector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.406148] (-) TimerEvent: {}
+[1.487965] (gesturedetector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.495969] (gesturedetector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.506216] (-) TimerEvent: {}
+[1.606795] (-) TimerEvent: {}
+[1.707538] (-) TimerEvent: {}
+[1.839401] (-) TimerEvent: {}
+[1.939840] (-) TimerEvent: {}
+[1.951994] (gesturedetector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.967572] (gesturedetector) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[2.040867] (-) TimerEvent: {}
+[2.043428] (gesturedetector) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[2.043585] (gesturedetector) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.173200] (-) TimerEvent: {}
+[2.273691] (-) TimerEvent: {}
+[2.373996] (-) TimerEvent: {}
+[2.387602] (gesturedetector) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.448762] (gesturedetector) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[2.474254] (-) TimerEvent: {}
+[2.495087] (gesturedetector) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[2.573778] (gesturedetector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[2.574424] (-) TimerEvent: {}
+[2.577278] (gesturedetector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.579841] (gesturedetector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.674828] (-) TimerEvent: {}
+[2.675885] (gesturedetector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.676905] (gesturedetector) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[2.775026] (-) TimerEvent: {}
+[2.799944] (gesturedetector) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[2.800280] (gesturedetector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.875318] (-) TimerEvent: {}
+[2.903911] (gesturedetector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.904075] (gesturedetector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.976144] (gesturedetector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.976325] (-) TimerEvent: {}
+[2.977333] (gesturedetector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.069876] (gesturedetector) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 0.8.4 (/opt/ros/eloquent/share/rclcpp_lifecycle/cmake)\n'}
+[3.077756] (-) TimerEvent: {}
+[3.125902] (gesturedetector) StdoutLine: {'line': b'-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)\n'}
+[3.178884] (-) TimerEvent: {}
+[3.279158] (-) TimerEvent: {}
+[3.316929] (gesturedetector) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.317958] (gesturedetector) StderrLine: {'line': b'CMake Error at CMakeLists.txt:24 (add_executable):\n'}
+[3.318097] (gesturedetector) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.318196] (gesturedetector) StderrLine: {'line': b'\n'}
+[3.318290] (gesturedetector) StderrLine: {'line': b'    src/GestureDetectorCompdef/GestureDetector_impl.cpp\n'}
+[3.318382] (gesturedetector) StderrLine: {'line': b'\n'}
+[3.318503] (gesturedetector) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp\n'}
+[3.318618] (gesturedetector) StderrLine: {'line': b'  .hxx .in .txx\n'}
+[3.318712] (gesturedetector) StderrLine: {'line': b'\n'}
+[3.318803] (gesturedetector) StderrLine: {'line': b'\n'}
+[3.319454] (gesturedetector) StderrLine: {'line': b'CMake Error: CMake can not determine linker language for target: GestureDetector\n'}
+[3.319592] (gesturedetector) StderrLine: {'line': b'CMake Error: Cannot determine link language for target "GestureDetector".\n'}
+[3.320736] (gesturedetector) StdoutLine: {'line': b'-- Generating done\n'}
+[3.322567] (gesturedetector) StdoutLine: {'line': b'-- Build files have been written to: /home/katya/ros2_ws/handGestureRecognition/build/gesturedetector\n'}
+[3.325843] (gesturedetector) CommandEnded: {'returncode': 1}
+[3.326599] (gesturedetector) JobEnded: {'identifier': 'gesturedetector', 'rc': 1}
+[3.337081] (-) EventReactorShutdown: {}

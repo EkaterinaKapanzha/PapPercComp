@@ -1,0 +1,3 @@
+[0.058s] make[2]: *** No rule to make target 'CMakeFiles/GestureDetector.dir/build'.  Stop.
+[0.059s] make[1]: *** [CMakeFiles/GestureDetector.dir/all] Error 2
+[0.059s] make: *** [all] Error 2

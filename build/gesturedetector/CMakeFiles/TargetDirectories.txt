@@ -1,0 +1,10 @@
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/install/strip.dir
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/install.dir
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/list_install_components.dir
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/gesturedetector_uninstall.dir
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/install/local.dir
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/test.dir
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/uninstall.dir
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/GestureDetector.dir
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/edit_cache.dir
+/home/katya/ros2_ws/handGestureRecognition/build/gesturedetector/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/home/katya/ros2_ws/handGestureRecognition/build/handgesturerecognition/ament_cmake_environment_hooks/local_setup.bash
